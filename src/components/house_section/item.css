@@ -1,0 +1,48 @@
+.items {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.items:not(:last-child) {
+  margin: 150px 0px;
+}
+
+.items > .imgBox {
+  width: 645px;
+  height: 360px;
+}
+
+.items > .imgBox > img {
+  width: 100%;
+  height: 100%;
+}
+
+.descript {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.title {
+  margin-left: 140px;
+  padding-top: 20px;
+}
+
+.title > h2 {
+  font-size: 40px;
+}
+
+.title > p {
+  font-size: 20px;
+}
+
+.descript > span {
+  font-size: 20px;
+  margin-left: 300px;
+  padding: 20px;
+}
